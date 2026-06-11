@@ -1,6 +1,6 @@
 h1
 {
-    color:rgb(87, 94, 11);
+    color:rgb(249, 249, 249);
     font-size:52px;
     text-align:center;
     margin:10px;
@@ -13,12 +13,8 @@ p#intro{
 }
 
 p{
-    font-size:22px;
-}
-
-nav{
-    font-size:25px;
-    margin:40px;
+    font-size:20px;
+    line-height: 1.4;
 }
 
 h2{
@@ -31,6 +27,12 @@ h3{
     font-size:24px;
 }
 
-a{
-    font-size:20px;
+.main{
+    color:white;
+}
+
+body{
+    background-color:black;
+    margin-left: 30px;
+    margin-right: 30px;
 }
