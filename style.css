@@ -1,22 +1,36 @@
 h1
 {
     color:rgb(249, 249, 249);
-    font-size:36px;
+    font-size:37px;
     margin:0;
-    font-weight:100;
+    font-family: "Cormorant Infant", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 p#intro{
-    font-size:20px;
+    font-size:19px;
     margin-top: 20px;
-
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 p{
-    font-size:19px;
+    font-size:17px;
     line-height: 1.4;
     margin-top: 7px;
     margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 h2{
@@ -31,6 +45,12 @@ h2{
 h3{
     font-size:19px;
     margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .main{
