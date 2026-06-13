@@ -109,3 +109,9 @@ section{
         margin-top: 45px;
     }
 }
+
+.me{
+    display: flex;
+    margin: 100px;
+    gap: 70px;
+}
