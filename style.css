@@ -96,6 +96,7 @@ section{
 
 .me img{
     border-radius: 50%;
+    width: 350px;
 }
 
 @media(max-width: 768px)
@@ -113,13 +114,13 @@ section{
         margin-top: 45px;
     }
     .me{
-        margin: 100px;
+        margin: 40px;
     }
 }
 
 .me{
     display: flex;
-    margin: 100px;
+    margin: 60px;
     gap: 70px;
 }
 
