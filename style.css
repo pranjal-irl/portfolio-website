@@ -1,7 +1,6 @@
 h1
 {
-    color:rgb(249, 249, 249);
-    font-size:37px;
+    font-size:40px;
     margin-top:50px;
     margin-bottom: 0px;
     font-family: "Cormorant Infant", serif;
@@ -11,14 +10,15 @@ h1
 }
 
 p#intro{
-    font-size:19px;
+    font-size:21px;
     margin-top: 20px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    text-shadow: 0px 0px 1px rgb(139, 136, 136);
 }
 
 p{
@@ -28,7 +28,7 @@ p{
     margin-bottom: 20px;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -36,10 +36,10 @@ p{
 
 h2{
     font-size:27px;
-    margin-top:10px;
+    margin-top:25px;
     margin-bottom:30px;
     font-family: "Arsenal", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -55,12 +55,14 @@ h3{
 }
 
 .main{
-    color:white;
+    color:black;
     padding:15px;
 }
 
 body{
-    background-color:black;
+    background-image: url(https://cdn.hackclub.com/019ed4f8-a1be-7fa8-937c-35ce90ef7694/bg-9.jpg);
+    background-size: cover;
+    background-position: center;
     margin-left: 120px;
     margin-right: 120px;
     
@@ -77,7 +79,7 @@ nav ul {
 }
 
 nav ul a{
-    color: white;
+    color: rgb(52, 48, 48);
     text-decoration:none;
 }
 
@@ -94,7 +96,7 @@ nav{
     position: fixed;
     top: 25px;
     right:0px;
-    background-color: rgba(245, 5, 5, 0.4);
+    background-color: rgba(1, 253, 236, 0.5);
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
 }
@@ -104,6 +106,7 @@ section{
 }
 
 .me img{
+    border: 2.5px solid white;
     border-radius: 50%;
     width: 350px;
 }
@@ -133,7 +136,7 @@ section{
     left: 0;
     right: 0;
     content: "";
-    background-color: rgba(5, 5, 5, 0.6);
+    background-color: rgba(5, 5, 5, 0.5);
 }
 
 .card-content {
@@ -153,6 +156,7 @@ section{
     background-image: url(https://cdn.hackclub.com/019ed488-c9cc-7f2d-9c07-4663e5f9f6db/air%20force%20school%20tambaram.jpg);
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 @media(max-width: 768px)
@@ -172,8 +176,8 @@ section{
         margin-left: 30px;
         margin-right: 30px;
     }
-    h1{
-        margin-top: 50px;
+    h2{
+        margin-top: 15px;
     }
     .me{
         margin: 0px;
