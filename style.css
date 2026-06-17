@@ -36,7 +36,7 @@ p{
 
 h2{
     font-size:27px;
-    margin-top:50px;
+    margin-top:10px;
     margin-bottom:30px;
     font-family: "Arsenal", sans-serif;
     font-weight: 400;
@@ -115,11 +115,44 @@ section{
     align-items: center;
 }
 
+.timeline-card{
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.timeline-card::before{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-color: rgba(5, 5, 5, 0.6);
+}
+
+.card-content {
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-card h2{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 1);
+}
+
+.timeline-card p{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
 .chennai{
-    margin: 30px;
-    padding: 40px;
-    border: 2px solid white;
-    border-radius: 20px;
+    background-image: url(https://cdn.hackclub.com/019ed488-c9cc-7f2d-9c07-4663e5f9f6db/air%20force%20school%20tambaram.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 @media(max-width: 768px)
@@ -156,6 +189,11 @@ section{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .timeline-card{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 @media(max-width:848px){
@@ -163,3 +201,4 @@ section{
         width: 240px;
     }
 }
+
