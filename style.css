@@ -136,7 +136,7 @@ section{
     left: 0;
     right: 0;
     content: "";
-    background-color: rgba(5, 5, 5, 0.5);
+    background-color: rgba(5, 5, 5, 0.2);
 }
 
 .card-content {
@@ -152,8 +152,20 @@ section{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
+.photo-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .chennai{
     background-image: url(https://cdn.hackclub.com/019ed488-c9cc-7f2d-9c07-4663e5f9f6db/air%20force%20school%20tambaram.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.lonavala{
+    background-image: url(https://cdn.hackclub.com/019ed8fc-b84e-71c3-9d87-37a24f7ec19b/lonavala%20roads.jpg);
     background-size: cover;
     background-position: center;
     color: white;
