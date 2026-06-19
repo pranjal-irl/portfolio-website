@@ -119,6 +119,25 @@ section{
     align-items: center;
 }
 
+.social-links{
+    font-size: 30px;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.social-links a{
+    color: black;
+}
+
+.social-links i{
+    transition: 0.3s;
+}
+
+.social-links i:hover{
+    transform: translateY(-6px);
+}
+
 .cards {
     display: flex;
     flex-direction: column;
