@@ -160,14 +160,16 @@ section{
 }
 
 .photo-container{
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .photo-container img{
-    width: 100%;
-    max-height: 300px;
+    height: 270px;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
     border: 1px solid white;
     border-radius: 15px;
     position: relative;
@@ -175,7 +177,10 @@ section{
 }
 
 .photo-container video{
-    width: 100%;
+    height: 270px;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
     border: 1px solid white;
     border-radius: 20px;
     position: relative;
@@ -200,14 +205,14 @@ section{
 }
 
 .lonavala{
-    background-image: url(https://cdn.hackclub.com/019ed8fc-b84e-71c3-9d87-37a24f7ec19b/lonavala%20roads.jpg);
+    background-image: url(https://cdn.hackclub.com/019ede9e-0cf9-7f5d-ac33-dfba80f4c766/lonavala%20road.jpg);
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 .ferozepur{
-    background-image: url(https://cdn.hackclub.com/019ed9d7-59b1-7475-be93-94c6ea8df02a/aps%20ferozepure.jpg);
+    background-image: url(https://cdn.hackclub.com/019edec8-a298-7f9b-b4db-155d0fcff2ef/aps%20ferozepur.png);
     background-size: cover;
     background-position: center;
     color: white;
