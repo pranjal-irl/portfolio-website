@@ -238,6 +238,13 @@ section{
     color: white;
 }
 
+.kv2dc{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
 @media(max-width: 768px){
 
     p{
