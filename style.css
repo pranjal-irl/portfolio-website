@@ -269,11 +269,7 @@ section{
     h2{
         margin-top: 15px;
     }
-    .me{
-        margin: 0px;
-        flex-direction: column;
-        gap: 30px;
-    }
+    
     .me p{
         margin: 0;
     }
@@ -296,3 +292,10 @@ section{
     }
 }
 
+@media(max-width:1100px){
+    .me{
+        margin: 0px;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
