@@ -18,7 +18,7 @@ p#intro{
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    text-shadow: 0px 0px 1px rgb(139, 136, 136);
+
 }
 
 p{
@@ -32,7 +32,7 @@ p{
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    text-shadow: 0px 0px 1px white;
+
 }
 
 h2{
@@ -61,7 +61,7 @@ h3{
 }
 
 body{
-    background-image: url(https://cdn.hackclub.com/019ed4f8-a1be-7fa8-937c-35ce90ef7694/bg-9.jpg);
+    background-image: url(https://cdn.hackclub.com/019ed4d1-8960-74ac-879a-775e1353e3aa/bg%203.png);
     background-size: cover;
     background-position: center;
     margin-left: 120px;
